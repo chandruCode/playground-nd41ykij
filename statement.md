@@ -13,4 +13,4 @@ int main()
         printf("%d is odd.", number);
 
     return 0;
-}ex example (external libraries, viewers...), see the [official documentation](https://tech.io/playgrounds/408/tech-io-documentation).
+}
