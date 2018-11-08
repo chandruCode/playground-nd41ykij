@@ -1,16 +1,16 @@
-# Welcome!
-
-This C template lets you get started quickly with a simple one-page playground.
-
-```C runnable
 #include <stdio.h>
+int main()
+{
+    int number;
 
-int main() {
-	printf("Hello World!");
-}
+    printf("Enter an integer: ");
+    scanf("%d", &number);
 
-```
+    // True if the number is perfectly divisible by 2
+    if(number % 2 == 0)
+        printf("%d is even.", number);
+    else
+        printf("%d is odd.", number);
 
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), see the [official documentation](https://tech.io/playgrounds/408/tech-io-documentation).
+    return 0;
+}ex example (external libraries, viewers...), see the [official documentation](https://tech.io/playgrounds/408/tech-io-documentation).
